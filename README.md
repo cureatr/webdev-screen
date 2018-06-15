@@ -13,6 +13,8 @@ At each turn of the game, the game board evolves according to the following rule
 * Any populated cell with more than three neighbors becomes empty.
 * Any empty cell with exactly three or six neighbors becomes populated.
 
+_The state of the board changes only after the next state has been computed._
+
 The game provides controls to start, reset, pause, and resume gameplay.
 
 ### Other requirements
